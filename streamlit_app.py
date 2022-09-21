@@ -3,4 +3,4 @@ import streamlit
 streamlit.title('My Parents New Healthy  Diner')
 
 streamlit.header('Breakfast Menu')
-streamlit.text('Oat Meal', 'Egg Omlette')
+streamlit.text('Oat Meal & Egg Omlette')
