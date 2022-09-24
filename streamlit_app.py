@@ -13,3 +13,7 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 # Display the table on the page.
 #streamlit.dataframe(fruits_to_show)
 
+import requests
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+streamlit.text(fruityvice_response)
+
